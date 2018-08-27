@@ -1,0 +1,49 @@
+.seven {
+    font-size: 0.7em !important;
+}
+
+.seven li {
+    font-size: 0.7em;
+}
+
+.seven {
+    font-size: 0.7em !important;
+}
+
+.seven ul li {
+    font-size: 0.7em;
+}
+
+.eight {
+    font-size: 0.8em !important;
+}
+
+.eight li {
+    font-size: 0.8em;
+}
+
+.nine {
+    font-size: 0.9em !important;
+}
+
+.nine li {
+    font-size: 0.9em;
+}
+
+
+::placeholder {
+    color: #747274;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #747274;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #747274;
+}
+
+.txt7 {
+    font-size: 24px !important;
+}
