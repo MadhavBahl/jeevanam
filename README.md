@@ -1,6 +1,6 @@
 # Jeevanam
 
-IoT Based Water Usage Tracking App For Project (J) -Component Of CSE3009: Internet Of Things
+IoT Based Water Conservation Device And a Water Usage Tracking App.
 
 ## Why Jeevanam | Objectives
 
