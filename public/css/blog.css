@@ -1,0 +1,10 @@
+body {
+    /* background-color: #292c3b; */
+    color: white;
+    background-image: url('../img/blog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
