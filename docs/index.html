@@ -1,294 +1,322 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="Jeevenam | Save water">
+        <meta name="author" content="Madhav Bahl">
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <meta name="Language" content="en" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Madhav Bahl, madhavbahl10@gmail.com">
+        <meta name="description" content="Many people want to start their career as a web developer but usually get overwhelmed by the number of technologies that are present these days. But, if you have a proper roadmap, there is nothing to be afraid of. Attend this webinar and learn web development." />
+        <meta name="keywords" content="Madhav Bahl,Madhav,Tech Enthusiast,Web Developer,Portfolio">
+        <meta property="og:type" content="website" />
+        <link rel="shortcut icon" href="img/logo-sm.png">
+        <link rel="icon" href="img/logo-sm.png">
+        <meta property="og:site_name" content="Web Development Webinar | RSVP" />
+        <meta property="og:url" content="madhavbahl.tech" />
+        <meta property="og:title" content="Web Development Webinar | RSVP" />
+        <meta property="og:image" content="images/newDP2.jpg" />
+        <meta property="og:description" content="Many people want to start their career as a web developer but usually get overwhelmed by the number of technologies that are present these days. But, if you have a proper roadmap, there is nothing to be afraid of. Attend this webinar and learn web development." />
+        <meta itemprop="name" content="Web Development Webinar | RSVP" />
+        <meta itemprop="description" content="Many people want to start their career as a web developer but usually get overwhelmed by the number of technologies that are present these days. But, if you have a proper roadmap, there is nothing to be afraid of. Attend this webinar and learn web development."  />
+        <meta name="keywords" content="Madhav Bahl,Madhav,Tech Enthusiast,Web Developer,Portfolio">
+		<meta name="author" content="Madhav Bahl">
+		<title>Madhav Bahl | Jeevanam</title>
 
-<head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Jeevanam is an 
-    organization which aims to make each and every human being aware of importance of saving water and giving them ways to save water.
-    Since, we do not aim sell our product & make our profit,
-    that's why, at Jeevanam we form a community that matters,
-    We give back to our mother nature the things we owe, 
-    And make sure every drop counts. ">
-	<meta name="author" content="Jeevanam">
-	<link rel="shortcut icon" href="/img/logo.png">
-	<title>Jeevanam</title>
 
-	<!-- Bootstrap core CSS -->
-	<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+        
 
-	<!-- Custom fonts for this template -->
-	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-	 rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
-	 rel='stylesheet' type='text/css'>
 
-	<!-- Plugin CSS -->
-	<link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+		<!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <link rel="stylesheet" href="css/style.css">
 
-	<!-- Custom styles for this template -->
-	<link href="/css/main.css" rel="stylesheet">
+		<!-- Printing and PDF exports -->
+		<!-- <script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script> -->
+        
+        <style>
+            #myImg {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
 
-</head>
+            #myImg:hover {opacity: 0.7;}
 
-<body id="page-top">
+            table, th, td {
+                border: 10px solid black;
+                border-collapse: collapse;
+            }
 
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logoImage" class="img-fluid" src="img/top_logo.png"></a>
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-			 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon" style="color: white !important;"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger white" style="font-size: 16px; color: white !important;" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" style="font-size: 16px; color: white !important;" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" style="font-size: 16px; color: white !important;" href="#">Save Water</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" style="font-size: 16px; color: white !important;" href="#">Our
-							Community</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" style="font-size: 16px; color: white !important;" href="#contact">Contact
-							Us</a>
-					</li>
-				</ul>
+        </style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <h1 style="font-size: 88px;">CSE3009: Internet Of Things</h1>
+
+                    <p class="eight"><b>Review 2 Presentation</b></p>
+                    <br>
+                    <p class="eight">
+                        Name: <b>Madhav Bahl</b> <br>
+                        Reg No: <b>16BCE2311</b> <br>
+                        Slot: <b>F1+TF1</b>
+                    </p>
+                    <!-- <div class="row">
+                        <br>
+                        <a style="padding: 20px;" target="_blank" href="http://github.com/MadhavBahlMD"><i class="fab fa-github"></i></a>
+                        <a style="padding: 20px;" target="_blank" href="https://www.linkedin.com/in/madhavbahl/"><i class="fab fa-linkedin-in"></i></a>
+                        <a style="padding: 20px;" target="_blank" href="https://www.instagram.com/the_lean_programmer/"><i class="fab fa-instagram"></i></a>
+                        <a style="padding: 20px;" target="_blank" href="http://madhavbahl.tech/"><i class="fas fa-globe"></i></a>
+                    </div> -->
+<br>
+<p style="font-size: 0.7em;">Find this presentation at: <a href="http://madhavbahl.tech/jeevanam/review2/">http://madhavbahl.tech/jeevanam/review2/</a></p>
+<br>
+                    <p style="font-size: 0.7em;">Use Arrow Keys To Control this Presentation</p>
+                </section>
+
+                <section>
+                    <!-- <p>Flow Of This Webinar!</p> -->
+                    <div class="row">
+                        <!-- <div class="col-xs-12 col-md-6 col-offset-md-6"> -->
+                            <!-- <a href="img/timeline.png" download>  <img height="620px;" style="background: rgba(0,0,0,0); border: 0;" src="img/timeline.png" alt="" srcset=""> </a> -->
+                            <a href="https://github.com/MadhavBahlMD/jeevanam" target="_blank">  <img id="myImg" src="img/poster.jpg" alt="Web Dev" style="width:100%;max-width:750px"> </a><br>
+                            <a target="_blank" href="https://github.com/MadhavBahlMD/jeevanam">IoT Based Water Conservation | JEEVANAM</a>
+                        <!-- </div> -->
+                    </div>
+                </section>
+
+                <section id="index">
+                    <section>
+                        <h2>Table Of Conents</h2>
+                        <p>
+                            <ol>
+                                <!-- <a href="#obj"><li>Objectives</li></a> -->
+                                <a href="#abstract"><li>Motivation</li></a>
+                                <a href="#plan"><li>Plan</li></a>
+                                <a href="#budget"><li>Budget</li></a>
+                                <a href="#"><li>Circuit Diagram</li></a>
+                                <a href="#component"><li>Code Draft</li></a>
+                                <a href="#output"><li>Queries</li></a>
+                                <a href="#output"><li>Demo</li></a>
+                            </ol>
+                        </p>
+                    </section>
+                </section>
+
+                <section id="abstract">
+                    <section>
+                        <h2>Motivation</h2>
+
+                        <p class="txt7" style="text-align: justify;">
+                            Almost 800 million people lack access to clean safe water every day. That's more than two and a half times the population of the United States, where most of us probably waste more water before noon than those people use in a month. 
+                            <br>
+                            To counter this problem, this project can be of great help. I intend to make an IoT based smart water conservation system. There are some automatic taps which are capable of saving water, but their costs are high and an average family can not afford them, so automation of taps is a problem. So, my idea is to make a device which can be attached to the taps and it will be able to send alerts in case of water wastage, and moreover, an application connected to it where one can keep a track of how much water he/she has wasted. 
+                            <br>
+                            Along with it, there will be a community/social media around the platform which can be used to make people aw are of how much water each person is wasting and giving rewards/incentives to people who waste least amount of water. Therefore, people who waste least amount of water can get incentives as well as respect in the society and others get inspiration from them.
+                        </p>
+                    </section>
+
+                    <section>
+
+                        <h2>Water Scarcity!</h2>
+                        <img id="" src="img/waters.jpg" alt="Web Dev" style="width:100%;max-width:650px">
+
+                    </section>
+
+                    <section>
+                        <h2>Principles And Motivation</h2>
+
+                        <p>The device is powered by 3 pillars, </p>
+
+                        <p class="seven">
+                            <ol class="eight">
+                                <li><b>Trust</b> - The social platform will increase trust and reliability</li>
+                                <li><b>Innovation</b> - Innovation powers efficiency</li>
+                                <li><b>Performance</b> - Aiming to deliver results that positively affects the current scenario.</li>
+                            </ol>
+                        </p>
+                    </section>
+                </section>               
+
+                <section id="plan">
+                    <section>
+                        <h2>Plan</h2>
+                        <img id="" src="img/plan.png" alt="Web Dev" style="width:100%;max-width:800px">
+                    </section>
+
+                    <section>
+                        <h2>Objectives</h2>
+                        <p class="seven">
+                            <ul class="eight">
+                                <li>Making an IoT based water conversation model which can detect water wastage</li>
+                                <li>Real time updates in case of water wastage and alerts for excessive water wastage.</li>
+                                <li>Spreading awareness about water shortage and importance of saving water</li>
+                                <li>Developing an online dashboard which gives updates in case water is being wasted.</li>
+                                <li>Developing a community/social media around the platform which can be used to make people aware of how much water each person is wasting and giving rewards/incentives to people who waste least amount of water.</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>Components</h2>
+
+                        <p><b>This project consists of 5 main modules</b></p>
+
+                        <p class="seven">
+                            <ol class="seven">
+                                <li><b>Sensors and Hardware</b> for getting the inputs and sensing water wastage</li>
+                                <li><b>Centralized Server</b>  for analysing, maintaining tracking app and updates</li>
+                                <li><b>Real Time Updates</b></li>
+                                <li><b>Social Platform </b>  (frontend + backend)</li>
+                                <li><b>Web app to show water wastage</b>  (frontend + backend)</li>
+                            </ol>
+                        </p>
+                    </section>
+
+                </section>
+
+                <section id="budget">
+                    <section>
+                        <h2>Budget</h2>
+
+                        <p><b>This project costs approximately 1200 Rupees</b></p>
+
+                        <p class="seven">
+                            <ol class="seven">
+                                <li><b>Arduino Uno - </b> Rs. 500</li>
+                                <li><b>WiFi Module (ESP8266) - </b> Rs. 300</li>
+                                <li><b>Ultrasonic Sensor - </b> Rs. 300 </li>
+                                <li><b>Raindrop Module - </b>  Rs. 100</li>
+                                <li><b>Bread Board, jumper cables, LEDs, resistors (Misc)</b>  Rs. 200</li>                                
+                            </ol>
+                            <br>
+                            <ul>
+                                <li><b>TOTAL:</b> Rs. 1200 /-</li>
+                            </ul>
+                        </p>
+                    </section>
+                </section>
+
+                <section id="circuit">
+                    <h2>Circuit Diagram</h2>
+
+                    <br>
+
+                    <img src="./finalpng.png" alt="" srcset="">
+                </section>
+
+                <section id="code">
+                    <h2>Arduino Code Draft</h2>
+
+                    <p>See the code <a target="_blank" href="./arduinoCode.html">here!</a></p>
+                </section>
+
+                <section id="projectIdea">
+                    <h2>Queries!?</h2>
+                    <p class="eight">Don;t hesitate to send me a mail in case you have a query.</p>
+                    <div class="row">
+                        <form method="POST" action="https://formspree.io/madhavbahl10@gmail.com">
+                            <div class="row">
+                                <div style="margin-top: 20px;" class="col-xs-12">
+                                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                                    <input type="email" style="color: black; padding-left: 5px; font-size: 0.9em; width: 60%;" id="subsEmail" name="_replyto" placeholder="Your email" required>
+                                </div>
+                                <div style="margin-top: 20px;" class="col-xs-12">
+                                    <!-- <input type="hidden" name="_subject" value="Contact request from personal website" /> -->
+                                    <!-- <textarea  name="message" name="_message" placeholder="Your message" style="color: #707070; padding-left: 5px; font-size: 0.8em;" id="subsEmail" required> </textarea> -->
+                                    <textarea name="message" name="_message" style="color: #707070; font-size: 0.9835em; font-size: 0.9em; width: 60%; height: 200px;" placeholder="Your message" required></textarea>
+                                </div>
+                                <div style="margin-top: 20px;" class="col-xs-12">
+                                    <!-- <textarea name="message" name="_message" placeholder="Your message" required></textarea> -->
+                                    <button id="subsBtn" style="color: #707070; font-size: 0.9em; padding-left: 10px; padding-right:  10px; border-radius: 5px;" type="submit">Submit</button>
+                                </div>
+                            </div>
+                            
+
+                        </form>
+                    </div>
+
+                </section>
+
+                <!-- <section id="">
+                    <section>
+                            <h2>Love Making Friends?</h2>
+                            <p>Let's Connect On <b>LinkedIn</b>? <br> <a href="https://www.linkedin.com/in/madhavbahl/">https://www.linkedin.com/in/madhavbahl/</a> </p>
+                    </section>
+
+                    <section>
+                        <h2>Don't Forget To Subscribe!</h2>
+                        <div id="contact-form">
+                            <form method="POST" action="http://theleanprogrammer.herokuapp.com/addEmail">
+                                
+                                <input type="email" id="subsEmail" name="email" placeholder="Your email" required>
+                                
+                                <button style="color: #747274" id="subsBtn" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+
+        
+                        <br>
+                        <p class="eight">Subscribing To Me Would Make You The First One To Recieve Updates From Me Directly On Your Mail!</p>
+                        
+                        <p><b>#TheLeanProgrammer</b></p>
+                    </section>
+
+                    <section>
+                        <h2>Yes, I am socially active :D</h2>
+                        <p>Follow Me On <b>GitHub</b>: <a href="https://github.com/MadhavBahlMD">@MadhavBahlMD</a></p>
+                        <p>Find Me On <b>Insta</b>: <a href="https://www.instagram.com/the_lean_programmer/">@the_lean_programmer</a></p>
+                        <p>Read My Bolgs On <b>Medium</b>: <a href="medium.com/@madhavbahl10">@madhavbahl10</a></p>
+                        <p>Connect With Me On <b>LinkedIn</b>: <a href="https://www.linkedin.com/in/madhavbahl/">@madhavbahl</a></p>
+                    </section>
+                </section> -->
+
+                
+
+                <section id="thanks">
+                    <h1>Presenting the demo</h1>
+                </section>
+
 			</div>
 		</div>
-	</nav>
 
-	<div class="bottomWheel">
-		<img src="/img/pattern.png" id="wheel" alt="">
-	</div>
-
-	<header class="masthead text-center text-white d-flex">
-		<div class="container my-auto">
-			<div class="row">
-
-				<div class="col-lg-8 col-xs-12">
-					<h1 class="text-uppercase">
-						<img style="margin-left: -52px;" src="/img/logo_big.png" id="mainImg" alt="Jeevanam">
-					</h1>
-
-					<br><br>
-
-					<p id="aboutText" style="">
-						Because we do not sell our product &amp; make our profit <br>
-						Therefore, at Jeevanam we form a community that matters, <br>
-						We give back to our mother nature the things we owe, <br>
-						And make sure every drop counts <br>
-					</p>
-
-					<br>
-					<a id="oneBtn" class="btn btn-primary btn-xl js-scroll-trigger" style="margin-top: 6px; padding-top: 10px; padding-bottom: 10px;"
-					 href="#">Save Water</a>&nbsp;&nbsp;&nbsp;
-					<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin-top: 6px; padding-top: 10px; padding-bottom: 10px;"
-					 target="_blank" href="#">Join Us</a>
-
-
-				</div>
-
-			</div>
-
-
-
-
-
-
-
-		</div>
-	</header>
-
-
-
-	<section id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-sm-12 offset-lg-1 text-center">
-					<h2 class="section-heading text-center"><b>About Us</b></h2>
-					<!-- <hr class="my-4">  -->
-					<hr class="light my-4" style="color: white; background-color: white;">
-					<p class="text-muted mb-0" style="color: white !important;">Jeevanam is an
-						organization which aims to make each and every human being aware of importance of saving water and giving
-						them ways to save water.
-						Since, we do not aim sell our product &amp; make our profit,
-						that's why, at jeevanam we form a community that matters,
-						We give back to our mother nature the things we owe,
-						And make sure every drop counts.</p>
-					<br>
-					<p class="text-muted mb-0" style="color: white !important;">Jeevanam is an
-						organization which aims to make each and every human being aware of importance of saving water and giving
-						them ways to save water.
-						Since, we do not aim sell our product &amp; make our profit,
-						that's why, at jeevanam we form a community that matters,
-						We give back to our mother nature the things we owe,
-						And make sure every drop counts.</p> <br>
-
-					<!-- <a class="btn btn-light btn-xl js-scroll-trigger" target="_blank" href="https://madhavbahlmd.github.io/Secure-cloud-comuting-using-bifid-cipher/">See Complete Proceedure</a>  -->
-				</div>
-
-				<div class="col-lg-5 hidden-sm text-center">
-
-					<img src="/img/kid.png" class="kidTilt img-fluid" style="" alt="">
-				</div>
-			</div>
-		</div>
-
-	</section>
-
-	<section class="bg-obj" id="about" style="padding-top: 20; padding-bottom: 20;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 hidden-sm text-center">
-
-					<img src="/img/kid2.png" id="iseHataao" class="kidTilt-2" style="padding-left: 40px; width: 180%;" alt="">
-				</div>
-
-				<div class="col-lg-6 offset-lg-1  text-center">
-					<h2 class="section-heading text-white"><b>Our Objectives</b></h2>
-					<hr class="light my-4">
-					<p class="text-faded mb-6">
-						<b class="white">TRUST</b> <br>
-						We act with integrity and independence by holding ourselves and each other accountable, ethical, and
-						reliable in all that we do.
-					</p>
-					<p class="text-faded mb-6">
-						<b class="white">INNOVATION</b> <br>
-						We innovate to serve our customers, drive our growth, and help educators and students around the globe
-						achieve their aim.
-					</p>
-					<p class="text-faded mb-6">
-						<b class="white">PERFORMANCE</b> <br>
-						We deliver results and we excel at work that positively affects the scenario world.
-					</p> <br>
-					<a class="btn btn-light btn-xl js-scroll-trigger" target="_blank" href="#">See Complete Proceedure</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="services" style="padding: 30px; padding-top: 50px;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 text-center">
-					<h2 class="white section-heading text-center"><b>Frequently Asked Questions</b></h2>
-					<!-- <hr class="my-4">  -->
-					<hr class="light my-4">
-					<br>
-				</div>
-				<br> <br>
-				<div class="col-sm-12 col-lg-6 text-center">
-					<p class="white"><b>What is Jeevanam?</b></p>
-					<p style="color: rgb(226, 221, 221);">We’re a community that helps you to save water or form a community by
-						getting known to public views ono the topic.
-						How can we help you study smart?</p>
-
-					<p class="white"><b>Our Objectives?</b></p>
-					<p style="color: rgb(226, 221, 221);">Trust, Innovation, and Performance. We innovate to serve our customers,
-						drive our growth, and help people around the globe achieve their aim.</p>
-
-					<p class="white"><b>Our Platforms?</b></p>
-					<p style="color: rgb(226, 221, 221);">Jeevanam is available online as web app as well as android app!</p>
-				</div>
-
-				<div class="col-lg-5 hidden-xs">
-					<img src="/img/kid3.png" class="kidTilt img-fluid" style="" alt="">
-				</div>
-
-				<br> <br>
-
-
-
-			</div>
-		</div>
-
-	</section>
-
-
-	<section class="bg-primary text-white">
-		<div class="container text-center">
-			<h2 class="mb-4">Liked the project, fork on GitHub</h2> <br>
-			<a class="btn btn-light btn-xl sr-button" target="_blank" href="https://github.com/MadhavBahlMD/jeevanam">Download
-				Now!</a>
-		</div>
-	</section>
-
-	<section id="contact" style="padding-top: 50px; padding-bottom: 50px;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 mx-auto text-center">
-					<h2 class="section-heading">Let's Get In Touch!</h2>
-					<hr class="my-4">
-					<p class="mb-5">Dont hesitate to send us an email in case of any query or feedback</p>
-				</div>
-			</div>
-			<div class="row">
-				<form action="/sendMail" style="width: 100%;" method="POST">
-					<div id="mobile30" class="text-center col-xs-12 col-sm-6 ">
-						<div class="form-group">
-							<label for="name">Name</label>
-							<input style="padding: 10px; height: 40px;" type="name" name="name" class="form-control" id="name">
-						</div>
-						<div class="form-group">
-							<label for="email">Email address:</label>
-							<input style="padding: 10px; height: 40px;" type="email" name="email" class="form-control" id="email">
-						</div>
-						<div class="form-group">
-							<label for="message">Message</label>
-							<textarea class="form-control" name="message" rows="5" id="message"></textarea>
-						</div>
-						<button type="submit" id="sendMailBTN" class="btn btn-dark btn-xl sr-button">Submit</button>
-					</div>
-				</form>
-
-				<!-- <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p></p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-            </p>
-          </div>  -->
-			</div>
-		</div>
-	</section>
-
-	<section id="footer">
-		<div style="width: 100%;">
-			<div class="text-center">
-				<h5 style="margin-bottom: 0;">Project made with <i class="fas fa-heart"></i> by Madhav</h5>
-			</div>
-		</div>
-	</section>
-
-	<!-- Bootstrap core JavaScript -->
-	<script src="/vendor/jquery/jquery.min.js"></script>
-	<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-	<script type="text/javascript" src="/js/tilt.jquery.js"></script>
-	<script src="/js/tiltIt.js"></script>
-	<!-- Plugin JavaScript -->
-	<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-	<script src="/vendor/scrollreveal/scrollreveal.min.js"></script>
-	<script src="/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-	<script src="/js/rotate.js"></script>
-
-	<!-- Custom scripts for this template -->
-	<script src="/js/creative.js"></script>
-
-</body>
-
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
