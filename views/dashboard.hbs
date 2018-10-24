@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub Profile Analyzer</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="shortcut icon" href="/dashboard/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dashboard/css/main.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="row" style="padding-top: 28px; padding-bottom: 50px;">
+                <div class="col s12 m2 center">
+                    <a href="/"><img src="/dashboard/img/logo.png" style="margin-bottom: 10px;" class="responsive-img" alt=""></a>
+                </div>
+
+                <div class="col s12 m8 offset-m2">
+                    <a style="color: white;" href="/"><h2 style="text-align: center;">An Initiative | Save Water</h2></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainCard" id="mainCard1">
+        <div class="container mainCardContainer">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card">
+                        <div class="card-content innerCard hoverable">
+                           
+
+                            <div class="row">
+                                <div class="col s12 m12 center" style="margin-top: 5vh;">
+                                    
+                                    {{!-- <div class="input-field col s12 m6 offset-m3">
+                                        <form action="">
+                                            <input placeholder="Placeholder" id="username" type="text" class="validate">
+                                            <br>
+                                            <br>
+                                            <button class="btn waves-effect waves-dark grey darken-3" id="searchBtn">Search!</button>
+                                        </form>
+
+                                    </div>                                    --}}
+                                    <br><br>
+                                    <h2>Tap Status: <span id="tap"></span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            
+        </div>
+    </div>
+
+    <!-- Uncompressed jQuery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCp3MQN86Z5-sTPISCpKLjVwOX5rjM1GVo",
+            authDomain: "my-first-project-7d21a.firebaseapp.com",
+            databaseURL: "https://my-first-project-7d21a.firebaseio.com",
+            projectId: "my-first-project-7d21a",
+            storageBucket: "my-first-project-7d21a.appspot.com",
+            messagingSenderId: "934883700224"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="/dashboard/js/updateDash.js"></script>
+</body>
+</html>
