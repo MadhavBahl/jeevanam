@@ -1,6 +1,6 @@
 import requests.packages.urllib3
 requests.packages.urllib3.disable_warnings()
-
+print ("Hello ")
 import serial
 
 arduinoData = serial.Serial('com3',9600)
